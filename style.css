@@ -384,6 +384,21 @@ section {
     font-weight: 600;
 }
 
+.project-link {
+    margin-top: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    transition: var(--transition);
+}
+
+.project-link:hover {
+    gap: 0.8rem;
+    color: var(--accent-secondary);
+}
+
 /* Contact */
 .contact-split {
     display: grid;
